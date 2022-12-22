@@ -1,1 +1,26 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f55a5a;
+}
+
+.header-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  padding: 50px;
+
+  color: #ffffff;
+}
