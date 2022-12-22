@@ -13,6 +13,13 @@ body {
   background-color: #f55a5a;
 }
 
+.header-icon {
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+
 .header-text {
   font-family: "Inter";
   font-style: normal;
@@ -20,7 +27,7 @@ body {
   font-size: 32px;
   line-height: 18px;
   letter-spacing: -0.075em;
-  padding: 50px;
+  padding: 50px 4px;
 
   color: #ffffff;
 }
